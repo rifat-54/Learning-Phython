@@ -14,3 +14,6 @@ its second style of comment
 
 # print("my name \" rifat\"")
 print('my name \'rifat\'')
+
+print("hello",5,6,7,sep="~",end='009\n')
+print("noting")
