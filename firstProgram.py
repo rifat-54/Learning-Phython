@@ -15,8 +15,24 @@
 # print(type(a))
 
 
-a=5
-b=3
-sum=a-b
+# a=5
+# b=3
+# sum=a-b
 
-print(sum)
+# print(sum)
+
+# a=9
+# harry=a
+# print(harry)
+
+# b=complex(3,5)
+# print(type(b))
+
+
+print(7+3)
+print(7-4)
+print(7*3)
+print(7/3)
+print(7//3)
+print(3**4)
+print(7%3)
