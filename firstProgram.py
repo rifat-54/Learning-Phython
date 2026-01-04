@@ -53,8 +53,23 @@
 
 # print(a+b)
 
-a=34
-b=str(a)
+# a=34
+# b=str(a)
 
-print(type(a))
-print(type(b))
+# print(type(a))
+# print(type(b))
+
+# name=input("enter your name :")
+# print("welcome",name)
+
+# value=float(input("enter some value: "))
+# print(type(value),value)
+
+name=input("enter your name: ")
+age=int(input("enter your age: "))
+marks=float(input("enter your marks: "))
+
+print("welcome",name)
+print("your age:",age)
+print("you got",marks)
+
