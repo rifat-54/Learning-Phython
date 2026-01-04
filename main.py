@@ -53,11 +53,11 @@ num=10
 
 #! logical operator
 
-value1=True
-value2=False
+# value1=True
+# value2=False
 
 # print(not value2)
 
-print("and operator:",value1 and value2)
+# print("and operator:",value1 and value2)
 
-print("or operator: ",value1 or value2)
+# print("or operator: ",value1 or value2)

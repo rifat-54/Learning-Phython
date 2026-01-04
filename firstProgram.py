@@ -29,10 +29,32 @@
 # print(type(b))
 
 
-print(7+3)
-print(7-4)
-print(7*3)
-print(7/3)
-print(7//3)
-print(3**4)
-print(7%3)
+# print(7+3)
+# print(7-4)
+# print(7*3)
+# print(7/3)
+# print(7//3)
+# print(3**4)
+# print(7%3)
+
+# a="1"
+# b="2"
+# print(int(a)+int(b))
+
+# i =1
+# while i<6
+# print(i)
+# i=i+1
+
+# a=int("3")
+# b=2.5
+
+# print(type(a))
+
+# print(a+b)
+
+a=34
+b=str(a)
+
+print(type(a))
+print(type(b))
