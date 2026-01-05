@@ -18,8 +18,18 @@ its second style of comment
 # print("hello",5,6,7,sep="~",end='009\n')
 # print("noting")
 
-name =input("What's your name? ")
+# name =input("What's your name? ")
 
-# print("hello,",name,sep="???")
-print("hello,",end='???')
-print(name)
+# # print("hello,",name,sep="???")
+# print("hello,",end='???')
+# print(name)
+
+name=input("enter your name: ").strip().title()
+
+# name=name.strip().title()
+
+# name=name.capitalize()
+name=name.title()
+
+print(f"hello, {name}")
+  
