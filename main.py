@@ -61,3 +61,21 @@ num=10
 # print("and operator:",value1 and value2)
 
 # print("or operator: ",value1 or value2)
+
+# a=input("enter first number: ")
+# b=input("enter second number: ")
+
+# print(int(a)+int(b))
+
+a="hello, i\"m  rifat"
+
+b=""" hello i"m rifat
+i am form bd
+ i live in dhaka
+
+"""
+# print(a[3])
+
+for char in b:
+    print(char)
+
