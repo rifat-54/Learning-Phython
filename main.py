@@ -86,3 +86,76 @@ num=10
 # nm="Harry"
 # print(nm[-4:-2])
 
+
+a="!!!!!!!!!Harry !!!!!!!!!!!! !Harry!!!!!!"
+# print(len(a))
+# print(a)
+# print(a.upper())
+# print(a.lower())
+# print(a.rstrip("!"))
+# print(a.replace("Harry","jon"))
+# print(a.split(" "))
+
+# blogHeading="inroducing tO PYthon"
+# print(blogHeading.capitalize())
+
+# str1="welcome to python"
+# print(len(str1))
+
+# print(str1.center(25))
+
+# print(len(str1.center(25)))
+
+# print(a.count(""))
+
+
+# str1="Welcome to console!!!"
+
+# print(str1.endswith("!!!"))
+# print(str1.endswith("to",4,12))
+
+# str2="He's name is Dan. He is an honest man"
+
+# print(str2.find("is"))
+# print(str2.index("is"))
+
+# ! isalnum =>allow only a-z,A-Z,0-9
+# str3="WelcomeToTheConso5le"
+# print(str3.isalnum())
+
+# ! isalpha => allow only a-z,A-Z
+# str4="WelcomeRifat"
+# print(str4.isalpha())
+
+# ! islower -> check if all charcter is lower . return true if all are is lower
+
+# str1="hello world"
+
+# str2=str1.upper()
+# print(str1.islower())
+
+# print(str2.isupper())
+
+# str1="Hi how are you 3\n"
+# print(str1.isprintable())
+
+# str1="Hi How Are You 2"
+
+# str2="      "
+# # print(str2.isspace())
+# print(str1.istitle())
+
+
+str1="pYthon Learning"
+
+# print(str1.startswith("python"))
+
+# print(str1.swapcase())
+# print(str1.title())
+
+# print(str1.strip())
+print(len(str1))
+print(str1.center(50))
+print(len(str1.center(50)))
+print(str1.center(50,"."))
+print(len(str1.center(50,".")))
