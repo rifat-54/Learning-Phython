@@ -24,12 +24,22 @@ its second style of comment
 # print("hello,",end='???')
 # print(name)
 
-name=input("enter your name: ").strip().title()
+# name=input("enter your name: ").strip().title()
 
 # name=name.strip().title()
 
 # name=name.capitalize()
-name=name.title()
+# name=name.title()
+# 
+# print(f"hello, {name}")
 
-print(f"hello, {name}")
+# !functin
+
+def hello(to="World"):
+    print("hello,",to)
+
+hello()
+name=input("enter your name: ")
+hello(name)
+# print(name)
   
