@@ -1,4 +1,6 @@
-time.strftime('%M')
-print(timestamp)
-timestamp = time.strftime('%S')
-print(timestamp)
+list=[2,1,3]
+list.append(4)
+# print(list)
+
+print(list.sort())
+print(list)

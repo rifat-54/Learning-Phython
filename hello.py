@@ -35,11 +35,13 @@ its second style of comment
 
 # !functin
 
-def hello(to="World"):
-    print("hello,",to)
 
-hello()
-name=input("enter your name: ")
-hello(name)
-# print(name)
-  
+
+def main():
+    name=input("enter your name: ")
+    hello()
+    
+def hello():
+    print("hello,",name)
+
+main()
