@@ -26,4 +26,26 @@ student={
     }
 }
 
-print(student["subject"]["chem"])
+# print(student["subject"]["chem"]) 
+# print(len(list(student.keys())))
+# print(list(student.values()))
+
+# print(list(student.items()))
+# pairs=list(student.items())
+
+# print(pairs[0])
+
+# print(student["name2"])   # return error if not found
+# print(student.get("name2"))   # return none if not found
+
+
+# student.update({"name":"pagla"})
+
+new_dict={
+    "city":"dhaka",
+    "age":14
+}
+
+student.update(new_dict)
+
+print(student)
