@@ -27,7 +27,7 @@ student={
 }
 
 # print(student["subject"]["chem"]) 
-# print(len(list(student.keys())))
+# print(list(student.keys()))
 # print(list(student.values()))
 
 # print(list(student.items()))
@@ -39,7 +39,7 @@ student={
 # print(student.get("name2"))   # return none if not found
 
 
-# student.update({"name":"pagla"})
+student.update({"name":"pagla"})
 
 new_dict={
     "city":"dhaka",
